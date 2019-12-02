@@ -79,14 +79,29 @@ export CDK_DEFAULT_REGION="ap-northeast-1"
 make release
 ```
 
-- deploy
+- deploy: release, cdk-deploy
 
 ```shell
 make deploy APP_ENV=dev
 ```
 
-- destroy
+- destroy: cdk-destroy
 
 ```shell
 make destroy APP_ENV=dev
+```
+
+- cdk-***:
+
+```shell
+make cdk-build          # CDK: ビルドを実行します
+make cdk-deploy         # CDK: デプロイします
+make cdk-destroy        # CDK: デプロイした環境を破棄します
+make cdk-diff           # CDK: ローカルのtemplateとデプロイしたもののDiffを表示します
+make cdk-fmt            # CDK: ソースの整形を行います
+make cdk-lint           # CDK: ソースのLINTを実行します
+make cdk-relase         # CDK: リリースビルドを実行します
+make cdk-setup          # CDK: 必要なツール類をセットアップします
+make cdk-synth          # CDK: CloudFormationのテンプレートを出力します
+make cdk-test           # CDK: ユニットテストを実行します
 ```
