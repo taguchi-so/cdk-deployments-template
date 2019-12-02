@@ -28,7 +28,7 @@ cdk-build:
 	@cd $(CDK_DIR) && npm run build
 
 # CDK: リリースビルドを実行します
-cdk-relase: cdk-fmt cdk-lint cdk-test
+cdk-release: cdk-fmt cdk-lint cdk-test
 
 # CDK: デプロイします
 cdk-deploy: .cdk-check-env .cdk-set-revision

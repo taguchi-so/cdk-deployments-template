@@ -100,7 +100,7 @@ make cdk-destroy        # CDK: デプロイした環境を破棄します
 make cdk-diff           # CDK: ローカルのtemplateとデプロイしたもののDiffを表示します
 make cdk-fmt            # CDK: ソースの整形を行います
 make cdk-lint           # CDK: ソースのLINTを実行します
-make cdk-relase         # CDK: リリースビルドを実行します
+make cdk-release         # CDK: リリースビルドを実行します
 make cdk-setup          # CDK: 必要なツール類をセットアップします
 make cdk-synth          # CDK: CloudFormationのテンプレートを出力します
 make cdk-test           # CDK: ユニットテストを実行します
