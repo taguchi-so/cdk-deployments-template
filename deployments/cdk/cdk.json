@@ -1,0 +1,14 @@
+{
+  "app": "npx ts-node bin/cdk.ts",
+  "context": {
+    "dev": {
+      "description": "develop context"
+    },
+    "stg": {
+      "description": "stage context"
+    },
+    "prd": {
+      "description": "production context"
+    }
+  }
+}
